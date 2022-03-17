@@ -1,0 +1,239 @@
+body {
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1440px;
+    height: 80px;
+    background-color: #fff;
+}
+
+.logo {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 117px;
+    margin-top: 27px;
+
+}
+
+.home {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    color: #5E81FE;
+}
+.nav {
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 427px;
+    height: 15px;
+    left: 216px;
+    letter-spacing: 0.05em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 33px;
+}
+
+a #one, #two, #three, #four {
+    text-decoration: none;
+    color: #697CA6;
+}
+
+.social {
+    position: absolute;
+    width: 162px;
+    height: 17px;
+    left: 1004px;
+    top: 32px;
+    letter-spacing: 30px;
+   
+    
+}
+
+.social-button {
+    margin-left: 44px;
+    position: absolute;
+    width: 113px;
+    height: 43px;
+    left: 1210px;
+    top: 19px;
+    background: #D2E1FF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #3A79FF;
+    border: none;
+}
+
+.hero {
+    background-image: url("./img/bg.svg");
+    width: 1440px;
+    height: 570px;
+}
+
+.first {
+    text-align: center;
+    padding-top: 92px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.second-one {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 60px;
+    color: #3D4F9F;
+    margin-top: 15px;
+}
+
+.second-two {
+    margin-left: 10px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #3D4F9F;
+    margin-top: 15px;
+}
+
+.third {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+    margin-top: 28px;
+}
+
+.fourth {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.customers {
+    width: 1440px;
+    display: flex;
+    padding-top: 61px;
+    padding-bottom: 61px;
+    justify-content: space-around;
+}
+
+.plan {
+    max-width: 100%;
+    max-height: 776px;
+    background-image: url("./img/bg2.svg");
+    padding-left: 269px;
+}
+
+.plan-first {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3D4F9F;
+    padding-top: 208px;
+}
+
+.plan-second-one {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+}
+
+.plan-second-two {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    color: #3D4F9F;
+}
+
+.plan-second-third {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    color: #3D4F9F;
+}
+
+.plan-third {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #8D96BD;
+}
+
+.button {
+    padding-bottom: 229px;
+}
+.plan-button-one {
+    align-items: center;
+    margin-top: 47px;
+    position: absolute;
+    width: 130px;
+    height: 43px;
+    background: #4C85FF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+}
+
+.plan-button-two {
+    padding-left: 1px;
+    align-items: center;
+    margin-top: 47px;
+    position: absolute;
+    width: 130px;
+    height: 43px;
+    background: #F5F8FF;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #ADB4D2;
+    border: solid 1px #D1D1E4;
+    left: 399.92px;
+}
+
+/* .plan-img {
+    /* position: absolute;
+    width: 653px;
+    height: 436px;
+    left: 739px;
+    top: 967px;
+} */
